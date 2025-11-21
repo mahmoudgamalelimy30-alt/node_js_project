@@ -53,8 +53,8 @@ app.get("/sayHello", (req, res) => {
   });
 });
 
-app.get("/hello", (req, res) => {
-  res.send("hello");
+app.get("/", (req, res) => {
+  res.send("hello at my first page");
 });
 
 app.get("/hi", (req, res) => {
